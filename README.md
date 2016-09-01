@@ -1,7 +1,13 @@
 VNC
 ===
 
-Running X11 in a Cloud9 workspace.
+Running X11 in a Cloud9 workspace, using:
+
+- `nonvc`
+- `fluxbox`
+- `x11vnc`
+- `xvfb`
+- `supervisor`
 
 [Screen Shot](screenshot.png)
 
