@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/ubuntu
+cd ~
 
 sudo apt-get update -qq
 sudo apt-get install -y supervisor xvfb fluxbox x11vnc
