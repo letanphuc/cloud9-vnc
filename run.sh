@@ -7,6 +7,14 @@ else
     VNC_IP=$(cat /etc/network/interfaces | grep "address" | sed 's/^[ \t]*//' | sed 's/address //')
 fi
 
+if [ -v PORT ]
+then
+    echo using default port $PORT
+else
+    PORT=8080
+    echo setting default port to $PORT
+fi
+
 echo VNC client running at https://$VNC_IP:$PORT/vnc.html
 echo Open a new shell and run the desired application
 echo
