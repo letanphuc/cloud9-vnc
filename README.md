@@ -22,3 +22,9 @@ Running
     ./run.sh
     
 or use the `X11` runner.
+
+## Notes
+
+- attaches desktop to display `:99`, change this in `supervisord.conf` if needed.
+- sets size to 1280x864 with 16-bit depth, change this in `supervisord.conf` if needed.
+- installs `noVNC` in `~`
