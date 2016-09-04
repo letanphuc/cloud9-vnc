@@ -1,7 +1,7 @@
 VNC
 ===
 
-Running X11 in a Cloud9 workspace, using:
+Running X11 in a Cloud9 workspace or Vagrant VM, using:
 
 - `nonvc`
 - `fluxbox`
