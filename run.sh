@@ -19,4 +19,11 @@ echo VNC client running at https://$VNC_IP:$PORT/vnc.html
 echo Open a new shell and run the desired application
 echo
 
-supervisord -c supervisord.conf $1
+if [ -z "$1" ]
+then
+    CMD=supervisord.conf
+else
+    CMD=$1
+fi
+
+supervisord -c $CMD
