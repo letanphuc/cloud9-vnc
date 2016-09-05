@@ -25,6 +25,8 @@ or use the `X11` runner.
 
 ## Notes
 
-- attaches desktop to display `:99`, change this in `supervisord.conf` if needed.
-- sets size to 1280x864 with 16-bit depth, change this in `supervisord.conf` if needed.
+- attaches desktop to display `:99`, change this in `.conf` if needed.
+- sets size to 1280x864 with 16-bit depth, change this in `.conf` if needed.
 - installs `noVNC` in `~`
+- give desired `.conf` file as argument to `run.sh`
+- if no argument, defaults to `supervisor.conf`, which runs `fluxbox`
