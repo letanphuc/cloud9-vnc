@@ -11,7 +11,7 @@ if [ -v PORT ]
 then
     echo using default port $PORT
 else
-    PORT=8080
+    export PORT=8080
     echo setting default port to $PORT
 fi
 
