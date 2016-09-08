@@ -16,12 +16,17 @@ Installation
 
     ./install.sh
 
-Running
+Running with default config
 -------
 
     ./run.sh
     
-or use the `X11` runner.
+Running with Firefox
+----------
+
+    sudo apt-get install -y firefox
+    ./run.sh firefox.conf
+
 
 ## Notes
 
