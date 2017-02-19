@@ -15,6 +15,11 @@ Installation
 ------------
 
     ./install.sh
+    
+If you'd like to direct all other X11 programs to this desktop, use the following to set the default DISPLAY.
+
+    echo "export DISPLAY=localhost:99" >> ~/.bashrc
+
 
 Running with default config
 -------
